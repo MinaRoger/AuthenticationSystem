@@ -7,7 +7,7 @@ import android.os.Handler
 import android.view.View
 import com.example.my_tut.MainActivity
 import com.example.my_tut.R
-import com.example.my_tut.UserSharedPreference
+import com.example.my_tut.utils.UserSharedPreference
 import com.example.my_tut.WelcomeScreen
 
 class SplashScreen : AppCompatActivity() {

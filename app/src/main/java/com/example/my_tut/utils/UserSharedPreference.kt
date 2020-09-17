@@ -1,7 +1,6 @@
-package com.example.my_tut
+package com.example.my_tut.utils
 
 import android.content.Context
-import android.content.SharedPreferences
 
 
 /**

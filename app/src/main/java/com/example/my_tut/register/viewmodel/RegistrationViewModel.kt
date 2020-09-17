@@ -3,7 +3,7 @@ package com.example.my_tut.register.viewmodel
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import com.example.my_tut.UserSharedPreference
+import com.example.my_tut.utils.UserSharedPreference
 import com.example.my_tut.register.repository.RegistrationRepository
 import com.example.my_tut.register.data.RegistrationModel
 import kotlinx.coroutines.Dispatchers

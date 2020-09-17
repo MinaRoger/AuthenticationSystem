@@ -3,7 +3,7 @@ package com.example.my_tut.login.viewmodel
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import com.example.my_tut.UserSharedPreference
+import com.example.my_tut.utils.UserSharedPreference
 import com.example.my_tut.login.repository.LoginRepository
 import com.example.my_tut.login.data.LoginModel
 import kotlinx.coroutines.Dispatchers

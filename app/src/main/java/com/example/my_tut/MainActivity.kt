@@ -3,12 +3,9 @@ package com.example.my_tut
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import androidx.annotation.UiThread
+import com.example.my_tut.utils.UserSharedPreference
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import kotlinx.coroutines.Dispatchers.Main
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
 import okhttp3.*
 import java.io.IOException
 
@@ -52,7 +49,8 @@ class MainActivity : AppCompatActivity() {
         runOnUiThread {
             title.text = product[0].title
             price.text = product[0].price.toString() + "EGP"
-            description.text = UserSharedPreference(this).getToken()
+            description.text = UserSharedPreference(this)
+                .getToken()
         }
     }
 }
