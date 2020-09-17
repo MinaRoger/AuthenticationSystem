@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">my-tut</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">UserName</string>
+
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Nice to see you again!</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="you_are_not_a_member">You are not a member?</string>
+    <string name="login">login</string>
+    <string name="register">Register</string>
+</resources>
